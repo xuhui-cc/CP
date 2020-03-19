@@ -1,0 +1,62 @@
+<view class="container">
+
+  <image class="bg" src="../../images/bg.png"></image>
+  <view class="nabigation_bar">
+    <image class="my" src="../../images/back.png" bindtap="back"></image>
+    <text class="my-head">测评报告</text>
+  </view>
+
+
+  <view class="layout">
+    <view class="title">2020领军公考测评大赛第一期</view>
+    <view class="flex">
+      <view class="shu"></view>
+      <view class="submit_content">交卷时间:</view>
+      <view class="time">2020.03.08   20:22</view>
+    </view>
+    <view class="flex">
+      <view class="shu"></view>
+      <view class="submit_content" style="width:60rpx;">用时:</view>
+      <view class="time">15分35秒</view>
+    </view>
+
+    <view hidden="true">
+      <image class="yes" src="../../images/yes.png"></image>
+      <view class="submited">已提交，正在火速批改中</view>
+    </view>
+
+    <view>
+      <view class="flex">
+        <view>
+          <view class="right">69%</view>
+          <view class="right_name">正确率</view>
+        </view>
+
+        <view class="shu2"></view>
+        
+        <view class="right_layout">
+          <view class="right_content">题数：<view style="font-size:23px;color:rgba(39,39,39,1);margin-top: -7rpx;">125 </view><view style="margin-left: 15rpx;">道</view></view>
+          <view class="right_content">做对：<view style="font-size:23px;color:rgba(39,39,39,1);margin-top: -7rpx;">125 </view><view style="margin-left: 15rpx;">道</view></view>
+          <view class="right_content">做错：<view style="font-size:23px;color:rgba(39,39,39,1);margin-top: -7rpx;">125 </view><view style="margin-left: 15rpx;">道</view></view>
+        </view>
+        
+        
+        
+      
+      </view>
+    
+    </view>
+
+    <view class="tip">批改完成后，老师会联系您进此次行测评分析，并为您定制专属备考方案，请注意接听电话~</view>
+    <view class="tip_layout"></view>
+    
+    
+  </view>
+
+  <view class="button">确定</view>
+
+
+
+
+
+</view>

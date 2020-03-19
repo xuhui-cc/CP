@@ -1,0 +1,35 @@
+<view class="container">
+  
+  <view class="nabigation_bar">
+    <image class="my" src="../../images/backb.png" bindtap="back"></image>
+    <text class="my-head">测评记录</text>
+  </view>
+  
+  <view class="for">
+    <view class="date">3月20日</view>
+    <view class="for">
+      <view class="layout1">
+        
+        
+        <view class="title">2020领军公考行测测评大赛第一期</view>
+        <view class="flex">
+          <view class="shu"></view>
+          <view class="text1">交卷时间：2020.03.08   20:22</view>
+        </view>
+        <view class="go_study">查看报告</view>
+        
+        <view class="heng"></view>
+      </view>
+      
+    
+    
+    </view>
+  
+  
+  </view>
+  
+
+
+
+
+</view>

@@ -1,0 +1,70 @@
+<view class="container">
+
+  <image class="bg" src="../../images/bg.png"></image>
+  <view class="nabigation_bar">
+    <image class="my" src="../../images/my.png" bindtap="to_my"></image>
+    <text class="my-head">领军公考</text>
+  </view>
+
+  <view class="layout1">
+    <view>
+      <image class="xc_icon" src="../../images/xc.png"></image>
+      <view class="head" style="color:rgba(251,80,21,1);">行测测评</view>
+    </view>
+    <view>
+      <view class="title">2020领军公考测评大赛第一期</view>
+      <view class="num">已有78人参与</view>
+    </view>
+    <view hidden="true" class="cp_button">开始测评</view>
+    <view class="bm_button">立即报名</view>
+  </view>
+
+  <view class="layout2">
+    <view>
+      <image class="xc_icon" src="../../images/sl.png"></image>
+      <view class="head" style="color:rgba(21,136,251,1);">申论测评</view>
+    </view>
+    <view>
+      <view class="title">2020领军公考测评大赛第一期</view>
+      <view class="num">已有78人参与</view>
+    </view>
+    <view class="cp_button">开始测评</view>
+  </view>
+
+  <view class="tip">注意：开始测评后，在规定时间内未提交的，系统强制提交。行 测60分钟，申论90分钟。</view>
+
+  <view class="sec_head">— 今日精讲 —</view>
+
+    <scroll-view  scroll-x="true" class="tab-h" >
+    <view wx:for="{{classify}}" wx:key="index" class="tab-item {{current_classify==index?'active':''}}" data-current="{{index}}"  bindtap="swichNav">{{item}}</view> 
+  </scroll-view> 
+  <view class="heng"></view>
+
+  <view class="flex_warp">
+    <view class="for">
+      <view class="video_layout">
+        <view class="on_mask">
+          <image hidden="true" class="lock" src="../../images/lock.png"></image>
+          <view hidden="true" class="lock_tip">待解锁</view>
+          <view class="to_syudy">
+            <image class="play" src="../../images/play.png"></image>
+            <view class="study">去学习</view>
+          </view>
+          <view class="flex">
+            <image class="video_icon" src="../../images/video_icon.png"></image>
+            <view class="video_num">45</view>
+            <view class="duartion">22:31:60</view>
+          </view>
+          
+        </view>
+        <view class="video_mask"></view>
+        <image class="video_img" src="../../images/video.png"></image>
+        
+        <view class="video_title">六面体破题技巧六面体破题技巧六面体破题技巧...</view>
+        <view class="video_classify">#判断#</view>
+      </view>
+    </view>
+  
+  </view>
+
+</view>

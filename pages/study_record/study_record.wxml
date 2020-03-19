@@ -1,0 +1,31 @@
+<view class="container">
+  
+  <view class="nabigation_bar">
+    <image class="my" src="../../images/backb.png" bindtap="back"></image>
+    <text class="my-head">学习记录</text>
+  </view>
+  
+  <view class="for">
+    <view class="date">3月20日</view>
+    <view class="for">
+      <view class="layout1">
+        <view class="flex">
+          <image class="play" src="../../images/play_g.png"></image>
+          <view class="title">六面体破题技巧</view>
+          <view class="go_study">去学习</view>
+        </view>
+        <view class="heng"></view>
+      </view>
+      
+    
+    
+    </view>
+  
+  
+  </view>
+  
+
+
+
+
+</view>

@@ -1,0 +1,31 @@
+<view class="container">
+  
+  <view class="nabigation_bar">
+    <image class="my" src="../../images/backb.png" bindtap="back"></image>
+    <text class="my-head">我的</text>
+  </view>
+
+  <view class="layout1">
+    <image class="avatar" src="../../images/avatar.png"></image>
+    <view class="name">爱笑的逗逗</view>
+  </view>
+
+  <view class="layout2">
+    <view class="flex" bindtap="to_study">
+      <image class="icon" src="../../images/cpjl.png"></image>
+      <view class="cpjl">测评记录</view>
+      <image class="next" src="../../images/next.png"></image>
+    </view>
+    <view class="heng"></view>
+    <view class="flex" bindtap="to_test">
+      <image class="icon" src="../../images/cpjl.png"></image>
+      <view class="cpjl">测评记录</view>
+      <image class="next" src="../../images/next.png"></image>
+    </view>
+  </view>
+  
+
+
+
+
+</view>

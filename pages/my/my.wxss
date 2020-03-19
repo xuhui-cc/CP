@@ -1,0 +1,99 @@
+page{
+  background:rgba(248,249,252,1);
+}
+.nabigation_bar{
+  position: fixed;
+  width:750rpx;
+  height:176rpx;
+  opacity:1;
+  background:rgba(255,255,255,1);
+  display: flex;
+  z-index: 100;
+}
+.my-head{
+  margin-left: 280rpx;
+  margin-top: 108rpx;
+  
+  height:48rpx;
+  font-size:34rpx;
+  font-family:PingFang SC;
+  font-weight:bold;
+  line-height:48rpx;
+  
+  
+  opacity:1;
+}
+.my{
+  margin-left: 37rpx;
+  margin-top: 115rpx;
+  width:31rpx;
+  height:31rpx;
+}
+.layout1{
+  margin-top: 176rpx;
+  width:750rpx;
+  height:324rpx;
+  background:rgba(255,255,255,1);
+  opacity:1;
+}
+.avatar{
+  margin-left: 309rpx;
+  margin-top: 62rpx;
+  width:133rpx;
+  height:133rpx;
+  border-radius: 50%;
+}
+.name{
+  margin-left: 290rpx;
+  margin-top: 11rpx;
+  width:170rpx;
+  height:48rpx;
+  font-size:34rpx;
+  font-family:PingFang SC;
+  font-weight:400;
+  line-height:48rpx;
+  color:rgba(32,32,32,1);
+  opacity:1;
+}
+.layout2{
+  margin-top: 15rpx;
+  width:750rpx;
+  height:254rpx;
+  background:rgba(255,255,255,1);
+  opacity:1;
+}
+.flex{
+  display: flex;
+}
+.icon{
+  margin-left: 42rpx;
+  margin-top: 47rpx;
+  width:29rpx;
+  height:35rpx;
+}
+.cpjl{
+  margin-left: 30rpx;
+  margin-top: 42rpx;
+  width:128rpx;
+  height:45rpx;
+  font-size:32rpx;
+  font-family:PingFang SC;
+  font-weight:400;
+  line-height:49rpx;
+  color:rgba(26,26,26,1);
+  opacity:1;
+}
+.next{
+  margin-left: 469rpx;
+  margin-top: 54rpx;
+  width:21rpx;
+  height:21rpx;
+}
+.heng{
+  margin-left: 103rpx;
+  margin-top: 41rpx;
+  width:648rpx;
+  height:0rpx;
+  border:1rpx solid rgba(230,230,230,1);
+  opacity:1;
+}
