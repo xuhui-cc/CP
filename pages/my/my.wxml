@@ -19,7 +19,7 @@
     <view class="heng"></view>
     <view class="flex" bindtap="to_test">
       <image class="icon" src="../../images/cpjl.png"></image>
-      <view class="cpjl">测评记</view>
+      <view class="cpjl">测评记录</view>
       <image class="next" src="../../images/next.png"></image>
     </view>
   </view>
