@@ -1,5 +1,13 @@
 <view class="container">
 
+  <view class="mask">
+   
+    <view class="mask_tip">点击下方<text style="font-size:30rpx;color:#04F3BE;">"分享好友"</text>按钮，全部课程免费学</view>
+      
+      <view class="mask_share">分享好友</view>
+    
+  </view>
+
   <image class="bg" src="../../images/bg.png"></image>
   <view class="nabigation_bar">
     <image class="my" src="../../images/my.png" bindtap="to_my"></image>
@@ -11,12 +19,23 @@
       <image class="xc_icon" src="../../images/xc.png"></image>
       <view class="head" style="color:rgba(251,80,21,1);">行测测评</view>
     </view>
-    <view>
+    <view hidden="true">
       <view class="title">2020领军公考测评大赛第一期</view>
       <view class="num">已有78人参与</view>
     </view>
+
+    <view>
+      <view class="flex">
+        <view class="end">已结束</view>
+        <view class="title1">2020领军公考测评大赛第一期</view>
+      </view>
+      <view class="end_tip">距离下次测评还剩：</view>
+      <view class="time_tip">2天 09:45:00</view>
+      
+    </view>
+
     <view hidden="true" class="cp_button">开始测评</view>
-    <view class="bm_button">立即报名</view>
+    <!-- <view class="bm_button">立即报名</view> -->
   </view>
 
   <view class="layout2">
@@ -31,9 +50,9 @@
     <view class="cp_button">开始测评</view>
   </view>
 
-  <view class="tip">注意：开始测评后，在规定时间内未提交的，系统强制提交。行 测60分钟，申论90分钟。</view>
+  <view class="tip">注意：开始测评后，在规定时间内未提交的，系统强制提交。行测60分钟，申论90分钟。</view>
 
-  <view class="sec_head">— 今日精讲 —</view>
+  <view class="sec_head">— 高频考点 —</view>
 
     <scroll-view  scroll-x="true" class="tab-h" >
     <view wx:for="{{classify}}" wx:key="index" class="tab-item {{current_classify==index?'active':''}}" data-current="{{index}}"  bindtap="swichNav">{{item}}</view> 
